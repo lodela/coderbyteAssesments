@@ -1,4 +1,4 @@
-const { deterministicPartitionKey } = require("./index");
+const { deterministicPartitionKey } = require("./refactoredCodeProposal");
 const crypto = require("crypto");
 
 describe("deterministicPartitionKey", () => {
